@@ -4,7 +4,8 @@ import VueRouter from 'vue-router';
 const routes = [
     {
         path:"/",
-        component:ExampleComponent
+        component:ExampleComponent,
+        name:"home",
     },
 ];
 

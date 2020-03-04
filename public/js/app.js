@@ -52576,7 +52576,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [{
   path: "/",
-  component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_0__["default"]
+  component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_0__["default"],
+  name: "home"
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: routes
