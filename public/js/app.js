@@ -37338,9 +37338,11 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("router-link", { attrs: { to: "/" } }, [_vm._v("Home")]),
+      _c("router-link", { attrs: { to: { name: "home" } } }, [_vm._v("Home")]),
       _vm._v(" "),
-      _c("router-link", { attrs: { to: "/second" } }, [_vm._v("second")]),
+      _c("router-link", { attrs: { to: { name: "second" } } }, [
+        _vm._v("second")
+      ]),
       _vm._v(" "),
       _c("router-view")
     ],
@@ -52823,7 +52825,7 @@ var routes = [{
 }, {
   path: "/second",
   component: _components_Example2__WEBPACK_IMPORTED_MODULE_2__["default"],
-  name: "Second"
+  name: "second"
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes,
